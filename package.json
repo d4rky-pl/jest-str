@@ -1,0 +1,25 @@
+{
+  "name": "jest-str",
+  "version": "1.0.0",
+  "description": "Jest system tests runner",
+  "main": "index.js",
+  "author": "Michał Matyas",
+  "license": "MIT",
+  "bin": {
+    "jest-str": "./bin/jest-str"
+  },
+  "files": [
+    "./index.js",
+    "./lib",
+    "./bin",
+    "./presets"
+  ],
+  "scripts": {
+    "test:cra": "cd ./tests/create-react-app && yarn && yarn run test:system",
+    "test:razzle": "cd ./tests/razzle && yarn && yarn run test:system",
+    "test":  "yarn run test:cra && yarn run test:razzle"
+  },
+  "dependencies": {
+    "delay": "^2.0.0"
+  }
+}
