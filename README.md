@@ -46,7 +46,7 @@ module.exports = {
 
 There are currently two presets: [create-react-app](https://github.com/facebookincubator/create-react-app) and
 [razzle](https://github.com/jaredpalmer/razzle). They both assume that your tests are either kept in
-`src/__system_tests__` or that they have `.system.js` extension, which mirrors `__tests__`/`test.js` from unit tests.
+`src/__system_tests__` or that they have `.system.js` extension, which mirrors `__tests__` and `.test.js` from unit tests.
 
 If you don't use either of them or want to send a pull request with your own preset, you need to specify:
 
