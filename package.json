@@ -1,9 +1,14 @@
 {
   "name": "jest-str",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Jest system tests runner",
   "main": "index.js",
   "author": "Michał Matyas",
+  "homepage": "https://github.com/d4rky-pl/jest-str",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/d4rky-pl/jest-str"
+  },
   "license": "MIT",
   "bin": {
     "jest-str": "./bin/jest-str"
