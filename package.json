@@ -13,12 +13,6 @@
   "bin": {
     "jest-str": "./bin/jest-str"
   },
-  "files": [
-    "./index.js",
-    "./lib",
-    "./bin",
-    "./presets"
-  ],
   "scripts": {
     "test:cra": "cd ./tests/create-react-app && yarn && yarn run test:system",
     "test:razzle": "cd ./tests/razzle && yarn && yarn run test:system",
