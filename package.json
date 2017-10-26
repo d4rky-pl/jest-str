@@ -1,6 +1,6 @@
 {
   "name": "jest-str",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Jest system tests runner",
   "main": "index.js",
   "author": "Michał Matyas",
